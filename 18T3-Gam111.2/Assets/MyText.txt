@@ -1,0 +1,8 @@
+Boot, 0
+Salmon,10
+Tuna,15
+Phil,2
+Octopus,20
+Flying,12
+Stone,1
+Clown,-1
