@@ -16,7 +16,17 @@ public class CameraControl : MonoBehaviour
 	void Update()
 	{
 		Vector3 lookPos = player.transform.position;
-		lookPos.y += 1f;
+		lookPos.y += 0.5f;
 		this.transform.LookAt(lookPos);
+		if (Input.GetKeyDown("x"))
+		{
+			print(Vector3.Distance(player.transform.position, this.transform.position));
+		}
+
 	}
+
+	// Change PoV between 10 and 50 based on player distance
+	// Close distance : 6
+	// Far Distance : 28
+
 }

@@ -61,17 +61,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\CameraControl.cs" />
-    <Compile Include="Assets\Enemy.cs" />
-    <Compile Include="Assets\fido.cs" />
-    <Compile Include="Assets\FishingGame.cs" />
-    <Compile Include="Assets\SceneControl.cs" />
+    <Compile Include="Assets\Classwork\fido.cs" />
+    <Compile Include="Assets\Classwork\FishingGame.cs" />
+    <Compile Include="Assets\Scripts\CameraControl.cs" />
+    <Compile Include="Assets\Scripts\Enemy.cs" />
+    <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\SceneControl.cs" />
+    <Compile Include="Assets\Scripts\TurnManager.cs" />
+    <Compile Include="Assets\Scripts\UiManager.cs" />
     <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\CameraLogic.cs" />
     <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\Demo.cs" />
     <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\SimpleCharacterControl.cs" />
-    <Compile Include="Assets\TurnManager.cs" />
-    <Compile Include="Assets\UiManager.cs" />
-    <None Include="Assets\MyText.txt" />
+    <None Include="Assets\Classwork\MyText.txt" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/stait2/Documents/18T3-GAM111.2/18T3-Gam111.2/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>

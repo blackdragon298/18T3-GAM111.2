@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour {
 
-	public enum EnemyType { };
+	public enum EnemyType { one, two, three};
 	public EnemyType type;
 
 	public enum OverworldBehaviour { Idle, Aggressive, Defeated};
